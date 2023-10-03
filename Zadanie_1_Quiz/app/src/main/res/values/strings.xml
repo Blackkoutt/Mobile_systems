@@ -5,7 +5,7 @@
     <string name="button_next">Następne</string>
 
     <string name="q_language">Aplikacje Android są tworzone w języku Kotlin lub Java</string>
-    <string name="q_proces">Każdy proces w systemie Android jest uruchamiany na jednej głównej maszynie wirutalnej</string>
+    <string name="q_process">Każdy proces w systemie Android jest uruchamiany na jednej głównej maszynie wirutalnej</string>
     <string name="q_components">Domyślnie każda aplikacja w systemie Android ma dostęp do wszystkich komponentów</string>
     <string name="q_resumed_state">Resumed to stan w którym activity jest w przednim planie</string>
     <string name="q_on_pause">onPause() to metoda wywoływana w przypadku, gdy użytkownik opuszcza daną aktywność</string>
@@ -14,4 +14,7 @@
     <string name="q_bound_service">Bound Service działa przez nieokreślony czas, nawet jeśli komponent, który go uruchomił zostanie usunięty</string>
     <string name="q_content_provider">Connent Provider to komponent odpowiadający za powiadomienia</string>
     <string name="q_broadcast_reciever">Za pośrednictwem komponentu Broadcast Reciever inne aplikacje mogą odczytywać i modyfikować przechowywane dane</string>
+
+    <string name="correct_answer">Poprawna odpowiedź!</string>
+    <string name="incorrect_answer">Niepoprawna odpowiedź.</string>
 </resources>
