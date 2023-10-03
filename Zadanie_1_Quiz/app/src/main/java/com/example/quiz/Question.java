@@ -10,4 +10,7 @@ public class Question {
     public boolean isTrueAnswer(){
         return this.trueAnswer;
     }
+    public int getQuestionId(){
+        return this.questionId;
+    }
 }
