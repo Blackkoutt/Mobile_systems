@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button falseButton;
     private Button nextButton;
     private TextView questionTextView;
+    private TextView questionNrTextView;
     private Question[] questions = new Question[]{
             new Question(R.string.q_language, true),
             new Question(R.string.q_process, false),
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         falseButton=findViewById(R.id.false_button);
         nextButton=findViewById(R.id.next_button);
         questionTextView=findViewById(R.id.question_text_view);
+        questionNrTextView=findViewById(R.id.question_nr_text_view);
 
         trueButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void setNextQuestion(){
         questionTextView.setText(questions[currentIndex].getQuestionId());
+        questionNrTextView.setText("Pytanie "+(currentIndex+1)+"/"+questions.length+":");
     }
     private void checkAnswerCorrectness(boolean userAnswer){
         boolean correctAnswer = questions[currentIndex].isTrueAnswer();
