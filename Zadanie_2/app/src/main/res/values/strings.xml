@@ -17,4 +17,25 @@
 
     <string name="correct_answer">Poprawna odpowiedź!</string>
     <string name="incorrect_answer">Niepoprawna odpowiedź.</string>
+
+    <string name="answer_text">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="button_answer">Pokaż odpowiedź</string>
+    <string name="button_prompt">Podpowiedź</string>
+    <string name="answer_was_shown">Odpowiedź była już wyświetlona!</string>
+
+
+    <string name="on_create">Wywołana została metoda cyklu życia: onCreate</string>
+    <string name="on_start">Wywołana została metoda cyklu życia: onStart</string>
+    <string name="on_resume">Wywołana została metoda cyklu życia: onResume</string>
+    <string name="on_destroy">Wywołana została metoda cyklu życia: onDestroy</string>
+    <string name="on_stop">Wywołana została metoda cyklu życia: onStop</string>
+    <string name="on_pause">Wywołana została metoda cyklu życia: onPause</string>
+    <string name="on_save_instance_state">Wywołana została metoda: onSaveInstanceState</string>
+
+    <string name="button_play_again">Spróbuj jeszcze raz</string>
+    <string name="summary">Wyniki: </string>
+    <string name="correct_answers_info">Poprawne odpowiedzi: </string>
+    <string name="incorrect_answers_info">Niepoprawne odpowiedzi: </string>
+    <string name="checked_answers_info">Użyte podpowiedzi: </string>
+    <string name="ommited_questions_info">Pominięte pytania: </string>
 </resources>
