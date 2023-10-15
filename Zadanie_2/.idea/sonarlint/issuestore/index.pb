@@ -7,3 +7,5 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 k
 ;app/src/main/java/com/example/zadanie_2/PromptActivity.java,1\a\1ae6409e0db2bd94f746d837f4384455929b9186
+l
+<app/src/main/java/com/example/zadanie_2/SummaryActivity.java,e\0\e0403c58a762def23ab64fae2f0df6e085d11e91

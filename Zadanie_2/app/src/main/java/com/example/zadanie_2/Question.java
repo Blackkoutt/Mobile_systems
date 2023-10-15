@@ -1,8 +1,8 @@
 package com.example.zadanie_2;
 
 public class Question {
-    private int questionId;
-    private boolean trueAnswer;
+    private int questionId; // Id pytania
+    private boolean trueAnswer; // Poprawna odpowiedź na pytanie
     public Question(int questionId, boolean trueAnswer){
         this.questionId=questionId;
         this.trueAnswer=trueAnswer;
