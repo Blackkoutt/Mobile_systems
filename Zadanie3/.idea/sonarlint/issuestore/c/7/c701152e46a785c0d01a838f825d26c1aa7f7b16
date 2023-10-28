@@ -1,0 +1,8 @@
+
+m	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¦õ”8ãŸöÁ·1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ºˆ­øÿÿÿÿ8üŸöÁ·1
+M
+java:S1874M"0Remove this use of "getColor"; it is deprecated.(“ÿêù8İˆüÁ·1
+M
+java:S1874N"0Remove this use of "getColor"; it is deprecated.(Ú¦‚8Ù„Â·1
