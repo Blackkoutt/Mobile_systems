@@ -1,15 +1,15 @@
 
 E
-java:S16048"(Make this anonymous inner class a lambda(¹£—Œ8Àîú¨±1
+java:S1604@"(Make this anonymous inner class a lambda(¹£—Œ8Œœ¤³1
 ‚
-java:S1450"eRemove the "checkedAnswersTextView" field and declare it as a local variable in the relevant methods.(Ù”çŒ8Òîú¨±1
+java:S1450"eRemove the "checkedAnswersTextView" field and declare it as a local variable in the relevant methods.(Ù”çŒ8Òîú¨±1
 ‚
-java:S1450"eRemove the "correctAnswersTextView" field and declare it as a local variable in the relevant methods.(§º—ø8Òîú¨±1
+java:S1450"eRemove the "correctAnswersTextView" field and declare it as a local variable in the relevant methods.(§º—ø8Òîú¨±1
 ‰
-java:S1450"gRemove the "incorrectAnswersTextView" field and declare it as a local variable in the relevant methods.(—÷Â©úÿÿÿÿ8Òîú¨±1
+java:S1450"gRemove the "incorrectAnswersTextView" field and declare it as a local variable in the relevant methods.(—÷Â©úÿÿÿÿ8Òîú¨±1
 |
-java:S1450"_Remove the "ommitedQuestions" field and declare it as a local variable in the relevant methods.(…û®ç8ü¾ï©±1
+java:S1450"_Remove the "ommitedQuestions" field and declare it as a local variable in the relevant methods.(…û®ç8ü¾ï©±1
 „
-java:S1450"gRemove the "ommitedQuestionsTextView" field and declare it as a local variable in the relevant methods.(¬–ˆı8Áåë©±1
+java:S1450 "gRemove the "ommitedQuestionsTextView" field and declare it as a local variable in the relevant methods.(¬–ˆı8Áåë©±1
 €
-java:S1450"^Remove the "playAgainButton" field and declare it as a local variable in the relevant methods.(†²ıéøÿÿÿÿ8Òîú¨±1
+java:S1450"^Remove the "playAgainButton" field and declare it as a local variable in the relevant methods.(†²ıéøÿÿÿÿ8Òîú¨±1

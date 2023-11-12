@@ -1,20 +1,19 @@
 
-E
-java:S1604s"(Make this anonymous inner class a lambda(ï‘€æ8ÛÿÁ©±1
-J
-java:S1604|"(Make this anonymous inner class a lambda(Üà¨¯üÿÿÿÿ8ÛÿÁ©±1
 F
-java:S1604‚"(Make this anonymous inner class a lambda(éäó‚8ÛÿÁ©±1
+java:S1604‰"(Make this anonymous inner class a lambda(ï‘€æ8ÛÿÁ©±1
 K
-java:S1604ˆ"(Make this anonymous inner class a lambda(ÈŒèâüÿÿÿÿ8ÛÿÁ©±1
+java:S1604•"(Make this anonymous inner class a lambda(Üà¨¯üÿÿÿÿ8ÛÿÁ©±1
+F
+java:S1604"(Make this anonymous inner class a lambda(éäó‚8ÛÿÁ©±1
+K
+java:S1604¦"(Make this anonymous inner class a lambda(ÈŒèâüÿÿÿÿ8ÛÿÁ©±1
 {
-java:S1450"YRemove the "nextButton" field and declare it as a local variable in the relevant methods.(º€ü‰ùÿÿÿÿ8‰€Â©±1
+java:S1450"YRemove the "nextButton" field and declare it as a local variable in the relevant methods.(º€ü‰ùÿÿÿÿ8‰€Â©±1
 f
-java:S18741"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8€Â©±1
+java:S1874:"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8€Â©±1
+X
+java:S2696H"6Make the enclosing method "static" or remove this set.(ÿ¢øûÿÿÿÿ8‘€Â©±1
+\
+java:S1874">Remove this use of "startActivityForResult"; it is deprecated.(¦Ì¿İ8€Â©±1
 S
-java:S2696:"6Make the enclosing method "static" or remove this set.(Ú´Î§8‘€Â©±1
-[
-java:S1874y">Remove this use of "startActivityForResult"; it is deprecated.(îü‰”8€Â©±1
-Y
-java:S2696"6Make the enclosing method "static" or remove this set.(úË¾Ìüÿÿÿÿ8£€Â©±1
-Y	java:S125°"<This block of commented-out lines of code should be removed.(Ö·‰8û„ª±1
+java:S2696À"6Make the enclosing method "static" or remove this set.(²Ñ½8£€Â©±1

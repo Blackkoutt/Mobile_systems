@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Zadanie3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Zadanie3" parent="Base.Theme.Zadanie3" />
+
+
+    <style name="view_style">
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:layout_marginTop">@dimen/view_margin</item>
+        <item name="android:layout_marginBottom">@dimen/view_margin</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="image_style">
+        <item name="android:layout_width">@dimen/image_width</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:layout_marginLeft">@dimen/image_margin_left</item>
+    </style>
+    <style name="date_text_view">
+        <item name="android:textSize">@dimen/date_text_view_text_size</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="task_name">
+        <item name="android:textSize">@dimen/task_name_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="checkbox_style">
+        <item name="android:layout_width">@dimen/checkbox_width</item>
+        <item name="android:layout_height">@dimen/checkbox_height</item>
+        <item name="android:layout_marginRight">@dimen/checkbox_margin_right</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="is_done_text_view_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/task_name_text_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="main_list_layout_style">
+        <item name="android:layout_marginTop">@dimen/main_list_layout_margin</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="main_list_second_layout_style">
+        <item name="android:gravity">left</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+
+    <style name="main_task_layout_style">
+        <item name="android:layout_margin">@dimen/main_item_layout_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="main_task_second_layout_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/second_layout_margin_top</item>
+    </style>
+    <style name="main_task_third_layout_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/third_layout_margin_top</item>
+    </style>
+    <style name="task_edit_info_text_view">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/task_header_text_size</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="task_edit_item">
+        <item name="android:layout_marginLeft">@dimen/task_edit_item_margin_left</item>
+        <item name="android:textSize">@dimen/task_header_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="task_edit_checkbox">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/task_info_margin_top</item>
+        <item name="android:textSize">@dimen/task_header_text_size</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="task_edit_button_save">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+    <style name="main_menu_layout">
+        <item name="android:layout_height">@dimen/main_menu_layout_height</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="menu_style">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="logo_style">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:textSize">@dimen/logo_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/logo_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="button_menu_style">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/button_menu_text_size</item>
+        <item name="android:padding">@dimen/button_menu_padding</item>
+    </style>
+    <style name="subtitle_menu_style">
+        <item name="android:background">@color/orange</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_height">@dimen/subtitle_height</item>
+        <item name="android:textSize">@dimen/subtitle_text_size</item>
+    </style>
+</resources>

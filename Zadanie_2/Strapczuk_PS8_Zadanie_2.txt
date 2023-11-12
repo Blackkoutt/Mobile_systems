@@ -1,0 +1,51 @@
+Link do repozytorium: https://github.com/Blackkoutt/Systemy_mobilne/tree/main/Zadanie_2
+
+Wynik analizy cyklu życia aplikacji:
+
+Po pierwszym uruchomieniu aplikacji:
+2023-10-09 14:57:11.344  9877-9877  TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onCreate
+2023-10-09 14:57:11.599  9877-9877  TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStart
+2023-10-09 14:57:11.603  9877-9877  TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onResume
+
+Po wciśnięciu przycisku Cofnij:
+2023-10-09 15:00:53.389 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onPause
+2023-10-09 15:00:54.159 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStop
+2023-10-09 15:00:54.161 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onDestroy
+
+Po ponownym uruchomieniu aplikacji:
+2023-10-09 15:01:38.776 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onCreate
+2023-10-09 15:01:38.820 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStart
+2023-10-09 15:01:38.822 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onResume
+
+Po wciśnięciu przycisku ekranu głównego Home:
+2023-10-09 15:02:20.061 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onPause
+2023-10-09 15:02:20.789 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStop
+
+Po powrocie do aplikcaji z listy ostatnio używanych aplikacji:
+2023-10-09 15:02:59.654 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStart
+2023-10-09 15:02:59.655 10191-10191 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onResume
+
+Po obrocie urządzenia (brak zaimplementowanej metody onSaveInstanceState):
+2023-10-09 15:04:58.752 10321-10321 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onPause
+2023-10-09 15:04:58.762 10321-10321 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStop
+2023-10-09 15:04:58.767 10321-10321 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onDestroy
+2023-10-09 15:04:58.796 10321-10321 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onCreate
+2023-10-09 15:04:58.834 10321-10321 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStart
+2023-10-09 15:04:58.835 10321-10321 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onResume
+Po przejściu do 2 pytania i obrocie urządzenia wyświetla się 1 pytanie.
+
+
+Po obrocie urządzenia (zaimplementowana metoda onSaveInstanceState):
+2023-10-09 15:15:41.546 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onPause
+2023-10-09 15:15:41.554 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStop
+2023-10-09 15:15:41.558 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda: onSaveInstanceState
+2023-10-09 15:15:41.560 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onDestroy
+2023-10-09 15:15:41.604 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onCreate
+2023-10-09 15:15:41.668 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onStart
+2023-10-09 15:15:41.671 11760-11760 TAG                     com.example.zadanie_2                D  Wywołana została metoda cyklu życia: onResume
+Po przejściu do 2 pytania i obrocie urządzenia nadal wyświetla się 2 pytanie.
+
+
+
+
+

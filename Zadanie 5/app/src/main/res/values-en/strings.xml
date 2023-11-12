@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="name_hint">Enter task name</string>
+    <string name="name_label">Name</string>
+    <string name="details_label">Details</string>
+    <string name="done_label">Done</string>
+    <string name="done">V Done</string>
+    <string name="undone">X Not done</string>
+    <string name="default_task_name">Urgent task number %d</string>
+    <string name="date">Date:</string>
+    <string name="category">Category:</string>
+    <string name="save">Save</string>
+    <string name="add_button">Add task</string>
+
+    <string name="task_add_new">New task</string>
+    <string name="show_subtitle">Show subtitle</string>
+    <string name="hide_subtitle">Hide subtitle</string>
+    <string name="subtitle_format">%d tasks</string>
+</resources>

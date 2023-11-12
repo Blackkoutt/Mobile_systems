@@ -27,7 +27,7 @@ public class TaskListFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_task_list, container, false); // Powiązanie z layoutem
+        View view = inflater.inflate(R.layout.fragment_task_list, container, false); // Powiązanie z layoutem (konwertowanie na obiekt View)
         recyclerView = view.findViewById(R.id.task_recycler_view);  // Pobranie elementu RecycleView z widoku
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity())); // Elementy bedą wyświetlane w jednej osi
         updateView(); // Aktualizacja widoku
@@ -54,7 +54,7 @@ public class TaskListFragment extends Fragment {
         updateView(); // Aktualizacja widoku listy RecyclerView
     }
 
-    // TaskHolder przechowuje elementy widoku listy
+    // TaskHolder przechowuje elementy widoku (elementu listy)
     private class TaskHolder extends  RecyclerView.ViewHolder implements View.OnClickListener{
 
         // Deklaracja elementów widoku
@@ -91,7 +91,7 @@ public class TaskListFragment extends Fragment {
         // Obsługa zdarzenia onCLick wywołanego na elemencie listy
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(getActivity(), MainActivity.class);  // Deklaracja nowej aktywności
+            Intent intent = new Intent(getActivity(), MainActivity.class);  // Deklaracja nowej aktywności MainActvity
             intent.putExtra(KEY_EXTRA_TASK_ID, task.getID());   // Przekazanie id zadania do nowej aktywności
             startActivity(intent);  // Uruchomienie nowej aktywności
         }
@@ -116,7 +116,7 @@ public class TaskListFragment extends Fragment {
         @Override
         public void onBindViewHolder(@NonNull TaskHolder holder, int position) {
             Task task = tasks.get(position);
-            holder.bind(task);
+            holder.bind(task); // wiązanie elementów widoku elementu listy (viewHolder) z danymi
         }
 
         @Override

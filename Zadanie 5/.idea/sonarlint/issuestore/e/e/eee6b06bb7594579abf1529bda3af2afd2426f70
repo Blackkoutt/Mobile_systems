@@ -1,0 +1,27 @@
+
+F
+java:S1604’"(Make this anonymous inner class a lambda(éÙÏ–8Àûò¥¼1
+
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â”Îà8ä»”¤¼1
+~
+java:S1450*"\Remove the "addTaskButton" field and declare it as a local variable in the relevant methods.(‰™«¥ùÿÿÿÿ8™¤¤¼1
+{
+java:S1450&"^Remove the "categorySpinner" field and declare it as a local variable in the relevant methods.(É¿«©8å»”¤¼1
+}
+java:S1450'"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ8æ»”¤¼1
+z
+java:S1450#"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(âê¸şÿÿÿÿ8æ»”¤¼1
+€
+java:S1450("cRemove the "overdueTasksTextView" field and declare it as a local variable in the relevant methods.(ÖíË8æ»”¤¼1
+{
+java:S1450%"YRemove the "saveButton" field and declare it as a local variable in the relevant methods.(Éÿ¤ûÿÿÿÿ8æ»”¤¼1
+‰
+java:S1450)"gRemove the "subtitleVisibilityButton" field and declare it as a local variable in the relevant methods.(‡ŸŞşÿÿÿÿ8æ»”¤¼1
+T
+java:S1874>"7Remove this use of "getSerializable"; it is deprecated.(²©æ8î»”¤¼1
+
+java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ8èûò¥¼1
+£
+java:S1186d"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ8éûò¥¼1
+¤
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8ìûò¥¼1

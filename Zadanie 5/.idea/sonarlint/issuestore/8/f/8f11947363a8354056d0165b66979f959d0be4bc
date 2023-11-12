@@ -1,0 +1,6 @@
+
+»
+java:S6548
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(°·‰æøÿÿÿÿ8ïƒ×£¼1
+i
+java:S1128"GRemove this unused import 'android.provider.Settings.System.getString'.(µšÈÿÿÿÿÿ8•ˆï£¼1

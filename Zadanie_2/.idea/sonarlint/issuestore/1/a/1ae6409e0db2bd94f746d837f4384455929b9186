@@ -1,7 +1,6 @@
 
-r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å­åëþÿÿÿÿ8¡Ð‹§±1
+m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»½„ˆ8¡Ð‹§±1
 J
-java:S1604"(Make this anonymous inner class a lambda(¡“ßÊûÿÿÿÿ8¡Ð‹§±1
+java:S1604#"(Make this anonymous inner class a lambda(¡“ßÊûÿÿÿÿ8¡Ð‹§±1
 }
-java:S1450"[Remove the "answerButton" field and declare it as a local variable in the relevant methods.(Àò¡žýÿÿÿÿ8´Ð‹§±1
-]	java:S125$"<This block of commented-out lines of code should be removed.(Àµ®ãüÿÿÿÿ8ÉÐ‹§±1
+java:S1450"[Remove the "answerButton" field and declare it as a local variable in the relevant methods.(Àò¡žýÿÿÿÿ8´Ð‹§±1

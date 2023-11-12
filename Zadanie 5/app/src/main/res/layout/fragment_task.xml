@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/main_task_layout_style"
+        >
+
+        <TextView
+            style = "?android:listSeparatorTextViewStyle"
+            android:id="@+id/firstTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/task_info_margin_top"
+            android:textSize="@dimen/task_header_text_size"
+            android:textColor="@color/white"
+            android:text="@string/name_label">
+        </TextView>
+
+        <EditText
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/task_info_margin_top"
+            android:textSize="@dimen/edit_task_name_text_size"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="@string/name_hint">
+        </EditText>
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:id="@+id/secondTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/task_header_text_size"
+            android:layout_marginTop="@dimen/task_info_margin_top"
+            android:textColor="@color/white"
+            android:text="@string/details_label">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/main_task_second_layout_style">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                style="@style/task_edit_info_text_view">
+            </TextView>
+
+            <EditText
+                android:id="@+id/task_date"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:autofillHints=""
+                android:inputType="date"
+                android:layout_marginTop="@dimen/task_info_margin_top"
+                android:background="@color/purple"
+                style="@style/task_edit_item"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/main_task_third_layout_style"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                style="@style/task_edit_info_text_view">
+            </TextView>
+            <Spinner
+                android:id="@+id/task_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                style="@style/task_edit_item"
+                />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/task_done"
+            android:layout_width="match_parent"
+            android:text="@string/done_label"
+            style="@style/task_edit_checkbox">
+        </CheckBox>
+        <Button
+            android:id="@+id/save_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/save"
+            style="@style/task_edit_button_save"/>
+
+    </LinearLayout>
+</ScrollView>

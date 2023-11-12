@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="task_item_padding">10dp</dimen>
+    <dimen name="view_margin">10dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+
+    <dimen name="image_width">70dp</dimen>
+    <dimen name="image_height">70dp</dimen>
+    <dimen name="image_margin_left">15dp</dimen>
+
+    <dimen name="date_text_view_text_size">20dp</dimen>
+
+    <dimen name="task_name_text_size">22dp</dimen>
+
+    <dimen name="checkbox_height">50dp</dimen>
+    <dimen name="checkbox_width">50dp</dimen>
+    <dimen name="checkbox_margin_right">15dp</dimen>
+
+    <dimen name="main_list_layout_margin">40dp</dimen>
+
+    <dimen name="main_item_layout_margin">15dp</dimen>
+
+    <dimen name="task_header_text_size">18dp</dimen>
+    <dimen name="task_info_margin_top">10dp</dimen>
+
+    <dimen name="second_layout_margin_top">10dp</dimen>
+
+    <dimen name="edit_task_name_text_size">20dp</dimen>
+
+    <dimen name="third_layout_margin_top">5dp</dimen>
+
+    <dimen name="task_edit_item_margin_left">15dp</dimen>
+
+
+    <dimen name="main_menu_layout_height">100dp</dimen>
+    <dimen name="logo_text_size">24dp</dimen>
+    <dimen name="logo_padding_left">12dp</dimen>
+
+    <dimen name="button_menu_text_size">15dp</dimen>
+    <dimen name="button_menu_padding">3dp</dimen>
+
+    <dimen name="subtitle_height">35dp</dimen>
+    <dimen name="subtitle_text_size">18dp</dimen>
+</resources>

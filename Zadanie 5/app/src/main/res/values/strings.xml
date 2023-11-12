@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="name_hint">Wpisz nazwe zadania</string>
+    <string name="name_label">Nazwa</string>
+    <string name="details_label">Szczegóły</string>
+    <string name="done_label">Wykonane</string>
+    <string name="done">V Wykonane</string>
+    <string name="undone">X Nie wykonane</string>
+    <string name="default_task_name">Pilne zadanie numer %d</string>
+    <string name="date">Data:</string>
+    <string name="category">Kategoria:</string>
+    <string name="save">Zapisz</string>
+    <string name="add_button">Dodaj zadanie</string>
+
+    <string name="task_add_new">Nowe zadanie</string>
+    <string name="show_subtitle">Pokaż podtytuł</string>
+    <string name="hide_subtitle">Ukryj podtytuł</string>
+    <string name="subtitle_format">%d niewykonanych zadań</string>
+</resources>

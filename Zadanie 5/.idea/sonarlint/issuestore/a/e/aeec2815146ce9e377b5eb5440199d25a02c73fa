@@ -1,0 +1,11 @@
+
+J
+java:S1604#"(Make this anonymous inner class a lambda(ì‘ç’ıÿÿÿÿ8Ş”ñˆ¼1
+S
+java:S1659"6Declare "subtitleVisabilityButton" on a separate line.(‡Í”8ƒù×Š¼1
+y
+java:S1450"\Remove the "addTaskButton" field and declare it as a local variable in the relevant methods.(‡Í”8î”ñˆ¼1
+€
+java:S1450"cRemove the "overdueTasksTextView" field and declare it as a local variable in the relevant methods.(ÖíË8Â‹ÕŠ¼1
+„
+java:S1450"gRemove the "subtitleVisabilityButton" field and declare it as a local variable in the relevant methods.(‡Í”8ÓØŠ¼1
