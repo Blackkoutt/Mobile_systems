@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Zadanie 6
+
+  Created by student on 20/11/2023.
+  Copyright © 2023 pb. All rights reserved.
+*/
+
+"image"="wi-pl";
+
+"Information" = "Informacja";
+"The faculty is running %i programs on graduate and undergraduate level." = "Wydzial prowadzi %i programy an poziomie licencjackim i magisterskim";
+
