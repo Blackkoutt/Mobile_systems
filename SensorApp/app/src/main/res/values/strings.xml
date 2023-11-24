@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="sensor_details">Szczegóły czujnika</string>
+    <string name="ok">OK</string>
+    <string name="hide_subtitle">Ukryj podtytuł</string>
+    <string name="show_subtitle">Pokaż podtytuł</string>
+    <string name="sensors_count">Liczba czujników: %d</string>
+</resources>
