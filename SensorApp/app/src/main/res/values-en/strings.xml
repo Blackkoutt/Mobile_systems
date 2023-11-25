@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="sensor_details">Sensor details</string>
+    <string name="ok">OK</string>
+    <string name="hide_subtitle">Hide subtitle</string>
+    <string name="show_subtitle">Show subtitle</string>
+    <string name="sensors_count">Sensors count: %d</string>
+    <string name="missing_sensor">No sensor</string>
+    <string name="light_sensor_label">Gravity sensor:\n X: %f\n Y: %f \nZ: %f </string>
+    <string name="accelerometr_sensor_label">Accelerometer:\n X: %f \nY: %f \nZ: %f</string>
+    <string name="get_localization">Get localization</string>
+    <string name="get_address">Get address</string>
+    <string name="get_localization_info">Press the button to get last location</string>
+    <string name="location_permission_denied">Failed to access the localization</string>
+    <string name="location_text">Latitude: %1$.4f \n Longitude: %2$.4f \n Time: %3$tr</string>
+    <string name="address_text">Address: %1$s \n Time: %2$tr</string>
+    <string name="no_location">Unable to get the localization</string>
+    <string name="service_not_available">The geocoder service is not available</string>
+    <string name="no_adress_found">Address could not be found</string>
+</resources>

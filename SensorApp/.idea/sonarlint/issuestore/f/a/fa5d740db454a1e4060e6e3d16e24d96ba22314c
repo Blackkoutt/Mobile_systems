@@ -1,0 +1,16 @@
+
+E
+java:S16047"(Make this anonymous inner class a lambda(²Õ»8Îôæø¿1
+E
+java:S1604u"(Make this anonymous inner class a lambda(šĞı¯8Ïôæø¿1
+E
+java:S1604n"(Make this anonymous inner class a lambda(”™ûÈ8Ïôæø¿1
+}
+java:S1450 "[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ıÿÿÿÿ8ìôæø¿1
+{
+java:S1450$"YRemove the "sensorList" field and declare it as a local variable in the relevant methods.(ùò©ºüÿÿÿÿ8ìôæø¿1
+y
+java:S1450#"\Remove the "sensorManager" field and declare it as a local variable in the relevant methods.(Ş¬–„8ìôæø¿1
+j	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÇüÆ8ùôæø¿1
+s
+java:S3457q"Q%n should be used in place of \n to produce the platform-specific line separator.(‘İ“™ÿÿÿÿÿ8ıôæø¿1

@@ -5,4 +5,16 @@
     <string name="hide_subtitle">Ukryj podtytuł</string>
     <string name="show_subtitle">Pokaż podtytuł</string>
     <string name="sensors_count">Liczba czujników: %d</string>
+    <string name="missing_sensor">Brak czujnika</string>
+    <string name="light_sensor_label">Czujnik grawitacji:\n X: %f\n Y: %f \nZ: %f </string>
+    <string name="accelerometr_sensor_label">Akcelerometr:\n X: %f \nY: %f \nZ: %f</string>
+    <string name="get_localization">Pobierz lokalizację</string>
+    <string name="get_address">Pobierz adres</string>
+    <string name="get_localization_info">Wciśnij przycisk, aby pobrać ostatnią lokalizację</string>
+    <string name="location_permission_denied">Aplikacja nie uzyskała dostępu do lokalizacji</string>
+    <string name="location_text">Szerokość geograficzna: %1$.4f \n Długość geograficzna: %2$.4f \n Czas: %3$tr</string>
+    <string name="address_text">Adres: %1$s \n Czas: %2$tr</string>
+    <string name="no_location">Nie można pobrać lokalizacji</string>
+    <string name="service_not_available">Serwis geocoder nie jest dostępny</string>
+    <string name="no_adress_found">Nie udało się odnaleźć adresu</string>
 </resources>

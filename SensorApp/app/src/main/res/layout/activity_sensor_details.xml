@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_layout_style">
+    <LinearLayout
+        android:id="@+id/top_bar"
+        style="@style/layout_topbar">
+        <TextView
+            android:id="@+id/logo"
+            android:text="@string/app_name"
+            style="@style/logo" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/sensor_label"
+        android:text="@string/missing_sensor"
+        style="@style/sensor_label_style"/>
+</LinearLayout>

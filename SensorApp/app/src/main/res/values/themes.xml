@@ -6,4 +6,110 @@
     </style>
 
     <style name="Theme.SensorApp" parent="Base.Theme.SensorApp" />
+
+    <style name="image_style">
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:layout_width">@dimen/image_width</item>
+    </style>
+    <style name="layout_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="layout_topbar_and_subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="layout_topbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="logo">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/logo_margin_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/logo_text_size</item>
+    </style>
+    <style name="hide_show_subtitle_button_style">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/green</item>
+    </style>
+    <style name="subtitle_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/darker_green</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/subtitle_padding</item>
+        <item name="android:paddingBottom">@dimen/subtitle_padding</item>
+        <item name="android:textSize">@dimen/subtitle_text_size</item>
+    </style>
+    <style name="recycler_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/recyler_view_margin_top</item>
+    </style>
+    <style name="sensor_label_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/sensor_label_margin_top</item>
+        <item name="android:textSize">@dimen/sensor_label_text_size</item>
+    </style>
+    <style name="location_text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">@dimen/location_text_size</item>
+        <item name="android:layout_marginTop">@dimen/location_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/location_margin_bottom</item>
+    </style>
+    <style name="location_info_text_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/location_info_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/location_info_margin_bottom</item>
+    </style>
+    <style name="sensor_name_style">
+        <item name="android:layout_marginLeft">@dimen/sensor_name_margin_left</item>
+        <item name="android:textSize">@dimen/sensor_name_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="location_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/location_info_text_size</item>
+    </style>
+    <style name="location_button_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="main_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
 </resources>
