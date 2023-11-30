@@ -31,14 +31,17 @@ android {
     }
 }
 
+
 dependencies {
-    implementation("androidx.room:room-runtime:2.6.0")
-    implementation("androidx.room:room-compiler:2.6.0")
-    implementation("androidx.room:room-testing:2.6.0")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.room:room-runtime:2.6.1")
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
+    androidTestImplementation("androidx.room:room-testing:2.6.1")
+
 
     implementation("androidx.lifecycle:lifecycle-common-java8:2.6.2")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    implementation("com.google.android.material:material:1.10.0")
 
 
     implementation("androidx.appcompat:appcompat:1.6.1")
