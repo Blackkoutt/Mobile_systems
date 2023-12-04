@@ -10,6 +10,7 @@ import androidx.room.Update;
 
 import java.util.List;
 
+// Data Access Object - interfejs do obsługi bazy
 @Dao
 public interface BookDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)

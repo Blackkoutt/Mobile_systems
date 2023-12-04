@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
+// BookRepository - warstwa pośrednia komunikacji z bazą
 public class BookRepository {
     private final BookDao bookDao;
     private final LiveData<List<Book>> books;

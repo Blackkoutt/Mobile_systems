@@ -13,3 +13,17 @@ b
 2app/src/main/java/com/example/libraryapp/Book.java,c\7\c74225d867d69ab5b4e99ac87c534e20e48363f1
 l
 <app/src/main/java/com/example/libraryapp/BookRepository.java,b\6\b681bc3d971619542f2aaa360f167ab1769b8d2d
+k
+;app/src/main/java/com/example/libraryapp/BookViewModel.java,a\8\a811da0eddd320638d9e1586774b69dae662a535
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+F
+app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+|
+Lapp/src/androidTest/java/com/example/libraryapp/ExampleInstrumentedTest.java,6\f\6fce1cecb5e36b48d1845af2718f7381d2010eaa
+C
+settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
+n
+>app/src/main/java/com/example/libraryapp/EditBookActivity.java,7\3\73fa435f4f8d878bdb7f3297025fe820e89fc096
+j
+:app/src/main/java/com/example/libraryapp/MainActivity.java,6\4\64174a17f7c4aa319a4170ccb05988f322a001e4

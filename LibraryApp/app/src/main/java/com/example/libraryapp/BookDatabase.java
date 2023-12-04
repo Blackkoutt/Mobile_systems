@@ -11,12 +11,15 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// Odpowiada za połączenie z bazą danych, jej utworzenie i inicjację
 @Database(entities = {Book.class}, version = 1, exportSchema = false)
 public abstract class BookDatabase extends RoomDatabase {
     private static BookDatabase databaseInstance;
     static final ExecutorService databaseWriteExecutor = Executors.newSingleThreadExecutor();
 
     public abstract BookDao bookDao();
+
+    // Pobranie bazy
     static BookDatabase getDatabase(final Context context){
         if(databaseInstance == null){
             databaseInstance = Room.databaseBuilder(context.getApplicationContext(),
@@ -27,6 +30,7 @@ public abstract class BookDatabase extends RoomDatabase {
         return databaseInstance;
     }
 
+    // Dodatkowy Callback do insertu przykładowych danych
     private static final RoomDatabase.Callback roomDataBaseCallback = new RoomDatabase.Callback(){
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {

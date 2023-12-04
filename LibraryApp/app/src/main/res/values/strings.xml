@@ -12,6 +12,16 @@
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Book not saved because there are empty fields.</string>
     <string name="book_added">Book has been added</string>
+    <string name="book_modified">Book has been modified</string>
+    <string name="book_delete">Book has been deleted</string>
+    <string name="yes_button">YES</string>
+    <string name="book_delete_question">Are you sure you want to delete this book ?</string>
+    <string name="formatted_book_info">Author: %1$s\nTitle: %2$s</string>
+    <string name="no_button">NO</string>
+    <string name="archived_message">Book \"%1$s\" has been archived</string>
+
+    <string name="edit_book">Edit book</string>
+    <string name="add_book">Add book</string>
 
 
 

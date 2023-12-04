@@ -8,6 +8,8 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
+// BookViewModel - dodatkowa warstwa pośrednia (Proxy) w komunikacji z repozytorium
+
 public class BookViewModel extends AndroidViewModel {
     private final BookRepository bookRepository;
     private final LiveData<List<Book>> books;
