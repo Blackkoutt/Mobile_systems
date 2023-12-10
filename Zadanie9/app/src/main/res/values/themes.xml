@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Zadanie9" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Zadanie9" parent="Base.Theme.Zadanie9" />
+
+    <style name="TextAppearanceListItem">
+        <!-- Tu definiuj właściwości wyglądu tekstu -->
+    </style>
+
+    <style name="mainDetailsLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="imageViewDetails">
+        <item name="android:layout_width">@dimen/img_details_w_h</item>
+        <item name="android:layout_height">@dimen/img_details_w_h</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="second_details_layouts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+    </style>
+    <style name="info_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+    <style name="details_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+    <style name="smallImageView">
+        <item name="android:layout_width">@dimen/img_small_w_h</item>
+        <item name="android:layout_height">@dimen/img_small_w_h</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/start_margin</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:contentDescription">Book cover</item>
+    </style>
+</resources>

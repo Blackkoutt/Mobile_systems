@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">API test App</string>
+    <string name="NotFound">Nie określono</string>
+    <string name="title">Tytuł: </string>
+    <string name="author">Autorzy: </string>
+    <string name="number_of_pages">Liczba stron: </string>
+    <string name="publisher">Wydawnictwa: </string>
+    <string name="languages">Języki: </string>
+    <string name="rating">Średnia ocena: </string>
+    <string name="error">Coś poszło nie tak... Spróbuj ponownie później</string>
+</resources>

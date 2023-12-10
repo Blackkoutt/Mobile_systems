@@ -1,5 +1,8 @@
 
+z	java:S116"^Rename this field "AddEditBookTextView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜³š8ß¯óŽÃ1
+
+java:S1450"bRemove the "AddEditBookTextView" field and declare it as a local variable in the relevant methods.(Ë˜³š8·œôŽÃ1
 ƒ
-java:S1450"aRemove the "editAuthorEditText" field and declare it as a local variable in the relevant methods.(®˜Õ×ùÿÿÿÿ8Æïè†Â1
+java:S1450"aRemove the "editAuthorEditText" field and declare it as a local variable in the relevant methods.(®˜Õ×ùÿÿÿÿ8´¬‹‹Ã1
 ‚
-java:S1450"`Remove the "editTitleEditText" field and declare it as a local variable in the relevant methods.(Á³‡‹ûÿÿÿÿ8Æïè†Â1
+java:S1450"`Remove the "editTitleEditText" field and declare it as a local variable in the relevant methods.(Á³‡‹ûÿÿÿÿ8´¬‹‹Ã1

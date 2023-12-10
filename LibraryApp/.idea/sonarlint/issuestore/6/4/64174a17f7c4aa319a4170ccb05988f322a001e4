@@ -1,13 +1,31 @@
 
 J
-java:S1604N"(Make this anonymous inner class a lambda(“«ì×ıÿÿÿÿ8ˆµÊˆÂ1
+java:S1604m"(Make this anonymous inner class a lambda(“«ì×ıÿÿÿÿ8ªË´Ã1
+K
+java:S1604‹"(Make this anonymous inner class a lambda(ü›êëşÿÿÿÿ8ªË´Ã1
+K
+java:S1604•"(Make this anonymous inner class a lambda(‘ê‚¢ıÿÿÿÿ8ñÖïÃ1
+F
+java:S1604"(Make this anonymous inner class a lambda(”™ûÈ8ªË´Ã1
 f
-java:S1874."JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8ÉµÊˆÂ1
+java:S1874;"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8ìË´Ã1
 „
-java:S32526"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8ÌµÊˆÂ1
+java:S3252F"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8îË´Ã1
 „
-java:S3252:"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8ÍµÊˆÂ1
+java:S3252R"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8ø§áÃ1
+„
+java:S3252W"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8ù§áÃ1
 `
-java:S1874R">Remove this use of "startActivityForResult"; it is deprecated.(ëÖƒ øÿÿÿÿ8ÖµÊˆÂ1
+java:S1874q">Remove this use of "startActivityForResult"; it is deprecated.(ëÖƒ øÿÿÿÿ8…¨áÃ1
+…
+java:S3252’"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8½×ïÃ1
+¤
+java:S1186—"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ŠÇ¾ıÿÿÿÿ8¾×ïÃ1
+…
+java:S3252¨"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(½ÑÕ²8À×ïÃ1
+d
+java:S1126¯"AReplace this if-then-else statement by a single return statement.(¬âÉÚıÿÿÿÿ8Á×ïÃ1
+\
+java:S1874Ì">Remove this use of "startActivityForResult"; it is deprecated.(Ìêò‹8Ä×ïÃ1
 H
-java:S1068+"+Remove this unused "binding" private field.(¶ÃÊ8áµÊˆÂ1
+java:S10688"+Remove this unused "binding" private field.(¶ÃÊ8ÍÛÃ1
